@@ -1,0 +1,224 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DS3231_Breakout-rescue_DS3231S-DS3231S_own-Nixiegence_Rev0_Operation-rescue-dm_mainboard-rescue
+#
+DEF DS3231_Breakout-rescue_DS3231S-DS3231S_own-Nixiegence_Rev0_Operation-rescue-dm_mainboard-rescue U 0 40 Y Y 1 F N
+F0 "U" 150 150 50 H V C CNN
+F1 "DS3231_Breakout-rescue_DS3231S-DS3231S_own-Nixiegence_Rev0_Operation-rescue-dm_mainboard-rescue" 550 50 50 H V C CNN
+F2 "" 50 550 50 H I C CNN
+F3 "" 50 550 50 H I C CNN
+DRAW
+S 100 0 750 -900 0 1 0 N
+X 32kHz 1 0 -100 100 R 50 50 1 1 C
+X NC 10 850 -700 100 L 50 50 1 1 P
+X NC 11 850 -600 100 L 50 50 1 1 P
+X NC 12 850 -500 100 L 50 50 1 1 P
+X GND 13 850 -400 100 L 50 50 1 1 W
+X VBAT 14 850 -300 100 L 50 50 1 1 W
+X SDA 15 850 -200 100 L 50 50 1 1 B
+X SCL 16 850 -100 100 L 50 50 1 1 I
+X VCC 2 0 -200 100 R 50 50 1 1 W
+X ~INT/SQW 3 0 -300 100 R 50 50 1 1 C
+X ~RST 4 0 -400 100 R 50 50 1 1 B
+X NC 5 0 -500 100 R 50 50 1 1 P
+X NC 6 0 -600 100 R 50 50 1 1 P
+X NC 7 0 -700 100 R 50 50 1 1 P
+X NC 8 0 -800 100 R 50 50 1 1 P
+X NC 9 850 -800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Battery_Cell
+#
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_Array_Unit_R_Array_Unit4
+#
+DEF R_Array_Unit_R_Array_Unit4 RN 0 40 Y Y 4 F N
+F0 "RN" -550 550 50 H V C CNN
+F1 "R_Array_Unit_R_Array_Unit4" -350 450 50 H V C CNN
+F2 "" -550 550 50 H I C CNN
+F3 "" -550 550 50 H I C CNN
+DRAW
+S -40 -100 40 100 1 1 10 N
+S -40 -100 40 100 2 1 10 N
+S -40 -100 40 100 3 1 10 N
+S -40 -100 40 100 4 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 8 0 -150 50 U 50 50 1 1 P
+X ~ 2 0 150 50 D 50 50 2 1 P
+X ~ 7 0 -150 50 U 50 50 2 1 P
+X ~ 3 0 150 50 D 50 50 3 1 P
+X ~ 6 0 -150 50 U 50 50 3 1 P
+X ~ 4 0 150 50 D 50 50 4 1 P
+X ~ 5 0 -150 50 U 50 50 4 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_AMS1117CD-3.3
+#
+DEF Regulator_Linear_AMS1117CD-3.3 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Regulator_Linear_AMS1117CD-3.3" 0 125 50 H V L CNN
+F2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" 0 200 50 H I C CNN
+F3 "" 100 -250 50 H I C CNN
+ALIAS AMS1117CD-1.8 AMS1117CD-2.5 AMS1117CD-2.85 AMS1117CD-3.3 AMS1117CD-5.0
+$FPLIST
+ TO?252*TabPin2*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+BATT
+#
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VS
+#
+DEF power_VS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" -200 -150 50 H I C CNN
+F1 "power_VS" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 0 0 100 N
+P 4 0 1 0 30 50 -30 50 0 100 30 50 F
+X VS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
